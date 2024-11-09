@@ -120,17 +120,18 @@
 
 .sale-info {
   position: absolute;
-  left: 10%; 
-  bottom: 30%;
+  left: 9%; 
+  bottom: 33%;
   text-align: left;
   color: #fff;
 }
 
 .event-sale {
   display: block;
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 30px;
+  font-family: 'Poppins';
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 3px;
 }
 
 .sale-button {
@@ -141,15 +142,29 @@
   font-weight: bold;
   border: none;
   cursor: pointer;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   position: relative;
+  z-index: 2;
+}
+
+.sale-button::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: -4px;
+  bottom: -4px;
+  border: 2px solid #fff;
+  z-index: 1;
 }
 
 .arrow-right {
   position: absolute;
   width: 30px;
-  bottom: 85px;
+  top: 60px;
+  right: 70px;
   margin: -50px;
+  z-index: 2;
 
 
 }
@@ -160,4 +175,10 @@
   text-decoration: underline;
   color: #ffffff;
   margin-top: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.terms:hover {
+  background-color: #000;
 }
