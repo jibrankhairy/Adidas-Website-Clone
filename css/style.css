@@ -19,6 +19,7 @@
 /* Logo Section */
 .navbar-logo {
   width: 100px;
+  cursor: pointer;
 }
 
 .brand-logo {
@@ -175,7 +176,7 @@
   font-weight: 600;
   text-decoration: underline;
   color: #ffffff;
-  margin-top: 20px;
+  margin: 10px;
   cursor: pointer;
   transition: 0.2s;
 }
