@@ -190,7 +190,6 @@
 
 /* Teaser Content */
 .teaser-content-container {
-  /* text-align: center; */
   padding: 20px;
 }
 
@@ -210,24 +209,51 @@
 
 .teaser-card {
   width: 320px;
+  height: 350px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .teaser-media {
   width: 100%;
-  height: auto;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 
 .teaser-header {
   font-weight: bold;
   font-family: 'Poppins';
   font-size: 1rem;
-  margin: 8px 0;
+  line-height: 40px;
+  cursor: pointer;
 }
 
 .teaser-description {
+  margin-bottom: 20px;
   font-size: 0.9rem;
   text-align: justify;
+  flex-grow: 1;
   color: #000000;
+  min-height: 60px;
+  cursor: pointer;
+}
+
+.teaser-button {
+  margin-top: auto;
+} 
+
+.teaser-link {
+  font-weight: bold;
+  font-size: 13px;
+  font-family: sans-serif;
+  word-spacing: 4px;
+  color: #000;
+  cursor: pointer;
+}
+
+.teaser-link:hover {
+  background-color: #000000;
+  color: #fff;
 }
