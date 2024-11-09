@@ -187,3 +187,47 @@
 .terms:hover {
   background-color: #000;
 }
+
+/* Teaser Content */
+.teaser-content-container {
+  /* text-align: center; */
+  padding: 20px;
+}
+
+.teaser-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-left: 115px;
+  margin-bottom: 20px;
+}
+
+.teaser-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 115px;
+}
+
+.teaser-card {
+  width: 320px;
+  text-align: left;
+}
+
+.teaser-media {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.teaser-header {
+  font-weight: bold;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.teaser-description {
+  font-size: 0.9rem;
+  text-align: justify;
+  color: #000000;
+}
