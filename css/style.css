@@ -160,7 +160,12 @@
   z-index: 1;
 }
 
-.arrow-right {
+.sale-button:active {
+  border: 2px solid #fff;
+  transform: translateY(2px);
+}
+
+.right-black-arrow {
   position: absolute;
   width: 30px;
   top: 60px;
