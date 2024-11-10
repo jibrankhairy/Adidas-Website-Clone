@@ -160,6 +160,13 @@
   z-index: 1;
 }
 
+.sale-button:active::before {
+  top: 2px; 
+  left: 2px;
+  right: -2px;
+  bottom: 2px;
+}
+
 .sale-button:active {
   border: 2px solid #fff;
   transform: translateY(2px);
