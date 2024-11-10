@@ -299,6 +299,7 @@
 .button-section {
   display: flex;
   background-color: #000000;
+  gap: 10px;
   color: #ffffff;
   padding: 15px 70px 15px 15px;
   font-size: 14px;
@@ -309,21 +310,50 @@
   z-index: 2;
 }
 
+.button-section i {
+  position: absolute;
+  font-size: 1.8em;
+  top: 10px;
+  right: 30px;
+  transition: color 0.1s;
+}
+
 .button-section::before {
   content: '';
   position: absolute;
   top: 3px;
   left: 3px;
-  right: -4px;
+  right: -3px;
   bottom: 6px;
   border: 1px solid #000000;
 }
 
-.right-white-arrow {
+/* .right-white-arrow {
   position: absolute;
   width: 30px;
   top: 60px;
   right: 70px;
   margin: -50px;
   z-index: 2;
+  cursor: pointer;
+} */
+.button-section:active {
+  transform: translateY(2px); 
+  background-color: #000000;
+}
+
+.button-section:active::before {
+  top: 2px; 
+  left: 2px;
+  right: -2px;
+  bottom: 2px;
+}
+
+.category-button:hover .button-section {
+  color: #424242;
+}
+
+.category-button:active .button-section {
+  border: 1px solid #000000;
+  transform: translateY(2px);
 }
