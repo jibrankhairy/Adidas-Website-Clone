@@ -361,3 +361,43 @@
   border: 1px solid #000000;
   transform: translateY(2px);
 }
+
+/* Product - Section */
+.product-section-container {
+  display: flex;
+  position: relative;
+  margin: 20px 0px 0px 20px;
+  padding: 0px 8px 0px 0px;
+}
+
+.product-content {
+  position: relative;
+  align-items: center;
+  margin: 15px;
+  width: 500px;
+}
+
+.product-media {
+  width: 100%;
+  height: 245px;
+  object-fit: cover;
+}
+
+.adidas-product {
+  position: absolute;
+  bottom: 10%;
+  left: 37%;
+}
+
+.product-name {
+  font-family: 'Poppins';
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #000;
+}
+
+.product-name:hover {
+  background-color: #000;
+  color: #fff;
+}
