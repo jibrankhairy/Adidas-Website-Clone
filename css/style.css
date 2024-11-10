@@ -222,10 +222,6 @@
 .teaser-card {
   width: 320px;
   height: auto;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .teaser-media {
@@ -400,4 +396,90 @@
 .product-name:hover {
   background-color: #000;
   color: #fff;
+}
+
+/* Adidas Product */
+
+.adidas-product-section {
+  padding: 20px;
+}
+
+.adidas-section-title {
+  font-size: 27px;
+  font-weight: bold;
+  margin: 30px;
+  text-align: center;
+}
+
+.adidas-product-carousel {
+  display: flex;
+  gap: 10px;
+  padding-left: 350px;
+}
+
+.adidas-product-card {
+  position: relative;
+  width: 270px;
+  height: auto;
+  cursor: pointer;
+}
+
+.adidas-product-card:hover {
+  border: 1px solid black;
+}
+
+.adidas-product-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-style: oblique;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 4px;
+  padding-left: 4px;
+  background-color: #fff;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.adidas-product-image {
+  width: 100%;
+}
+
+.adidas-product-info {
+  padding-left: 10px;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.adidas-product-category {
+  font-size: 12px;
+  color: rgb(118, 118, 119);
+}
+
+.adidas-product-name {
+  display: flex;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 8px;
+  word-spacing: 2px;
+}
+
+.adidas-product-price {
+  padding-top: 6px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.adidas-wishlist-button {
+  position: absolute;
+  font-size: 30px;
+  border: none;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
 }
