@@ -275,10 +275,7 @@
 .category-section-container {
   display: flex;
   position: relative;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 60px 0px 0px 30px;
 }
 
 .category-content {
