@@ -483,3 +483,39 @@
   right: 20px;
   cursor: pointer;
 }
+
+/* Adidas Info About */
+
+.adidas-info-section-about {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(235, 237, 238);
+  padding: 90px 0;
+}
+
+.adidas-info-about {
+  flex: 1;
+  max-width: 740px;
+  text-align: left;
+  margin: 0 20px;
+  /* padding: 80px 50px ; */
+}
+
+.adidas-info-about-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+}
+
+.adidas-info-about-description {
+  font-size: 13px;
+  word-spacing: 1.2px;
+  font-family: 'Poppins' ,Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
