@@ -498,7 +498,6 @@
   max-width: 740px;
   text-align: left;
   margin: 0 20px;
-  /* padding: 80px 50px ; */
 }
 
 .adidas-info-about-title {
@@ -518,4 +517,73 @@
   word-spacing: 1.2px;
   font-family: 'Poppins' ,Arial, Helvetica, sans-serif;
   line-height: 1.6;
+}
+
+/* Footer Newsletter */
+.footer-newsletter-container {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-newsletter-wrapper {
+  width: 700px;
+}
+
+.footer-newsletter-subscribe {
+  display: flex;
+  width: 100%;
+}
+
+.footer-newsletter-info {
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-right: 40px;
+  margin-left: -180px;
+}
+
+.footer-newsletter-button {
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+.btn-sign-up {
+  padding: 10px 1px 10px 15px;
+  margin-bottom: 40px; 
+  margin-left: 120px;
+  text-transform: uppercase;
+  font-size: 12px; 
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: Arial, sans-serif;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  text-align: left; 
+  width: 85%; 
+  cursor: pointer;
+  z-index: 2;
+}
+
+.btn-sign-up::before {
+  content: '';
+  position: absolute;
+  margin-left: 120px;
+  top: 4px;
+  left: 4px;
+  right: -62px;
+  bottom: 39px;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+.btn-sign-up i {
+  font-size: 25px;
+  padding-left: 140px;  
+  font-weight: bold;
+  vertical-align: middle;
 }
