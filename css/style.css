@@ -587,3 +587,24 @@
   font-weight: bold;
   vertical-align: middle;
 }
+
+.btn-sign-up:active {
+  transform: translateY(2px); 
+  background-color: #ffffff;
+}
+
+.btn-sign-up:active::before {
+  top: 2px; 
+  left: 2px;
+  right: -2px;
+  bottom: 2px;
+}
+
+.footer-newsletter-button:hover .btn-sign-up {
+  color: #424242;
+}
+
+.footer-newsletter-button:active .btn-sign-up {
+  border: 1px solid #ffffff;
+  transform: translateY(2px);
+}
