@@ -647,3 +647,65 @@
 .footer-content-container li:hover {
   text-decoration: underline;
 }
+
+/* Footer Section */
+
+.footer-section-container {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 15px;
+  color: #fff;
+}
+
+.footer-section-wrapper {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  width: 80%;
+}
+
+.footer-country {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer-country-media {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.footer-country span {
+  font-size: 11px;
+  color: rgb(200, 203, 204);
+}
+
+.footer-country:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-link-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-link-list li {
+  list-style: none;
+}
+
+.footer-link-list a, .footer-link-list span {
+  font-size: 11px;
+  color: rgb(200, 203, 204);
+  text-decoration: none;
+}
+
+.footer-link-list a:hover {
+  text-decoration: underline;
+}
+
