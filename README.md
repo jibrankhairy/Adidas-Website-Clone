@@ -24,12 +24,10 @@ Google Fonts: Using Montserrat, Poppins, and Roboto for modern typography.
 Bootstrap Icons: Adding subtle touches with sleek icons.
 Image Assets: High-quality visuals for banners and teasers.
 🚀 How to Run
-Clone this repo:
+Clone the repository:
+```bash
 git clone https://github.com/username/adidas-website-clone.git
-
-Open the folder:
-cd adidas-website-clone
-
+```
 ✨ What's Next?
 📊 Add Interactivity:
 Bring the site to life with JavaScript—animations, live search, and interactive elements.
@@ -42,3 +40,5 @@ Host the site on GitHub Pages, Netlify, or Vercel and share it with the world!
 
 ⚠️ Disclaimer
 This project is purely for educational purposes and is not affiliated with or endorsed by Adidas. All trademarks and logos belong to their respective owners.
+
+
