@@ -25,12 +25,9 @@ Bootstrap Icons: Adding subtle touches with sleek icons.
 Image Assets: High-quality visuals for banners and teasers.
 🚀 How to Run
 Clone this repo:
-bash
-Copy code
 git clone https://github.com/username/adidas-website-clone.git
+
 Open the folder:
-bash
-Copy code
 cd adidas-website-clone
 
 ✨ What's Next?
